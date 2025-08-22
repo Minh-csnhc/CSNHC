@@ -1,3 +1,5 @@
+
+
 body {
     background: linear-gradient(135deg, #152337, #000818);
 }
@@ -34,7 +36,7 @@ html {
 
 .navbar li {
     float: right;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Sou';
     font-weight: 600;
     padding: 10px;
     margin-left: 20px;
@@ -57,7 +59,7 @@ a {
 
 .welcome {
     color: #00ff88;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Source Code Pro", monospace;
     font-weight: bold;
     text-shadow: 0 0 5px #00ff88;
     font-size: xxx-large;
@@ -65,7 +67,7 @@ a {
 
 .pink {
     color: #ff1a8d;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Source Code Pro", monospace;
     font-weight: bold;
     font-size: x-large;
 }
@@ -73,7 +75,7 @@ a {
 
 .name {
     color: #1affff;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Source Code Pro", monospace;
     font-weight: bold;
     text-shadow: 0 0 5px #1affff;
     font-size: xxx-large;
@@ -127,7 +129,7 @@ a {
     text-align: center;
     color: #00ff88;
     font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Source Code Pro", monospace;
     font-weight: 600;
     transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1),
                 box-shadow 0.6s cubic-bezier(0.25, 0.8, 0.25, 1),
@@ -146,7 +148,7 @@ a {
     text-align: center;
     color: #fc8200;
     font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Source Code Pro", monospace;
     font-weight: 600;
     transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1),
             box-shadow 0.6s cubic-bezier(0.25, 0.8, 0.25, 1),
@@ -166,7 +168,7 @@ a {
     text-align: center;
     color: #1affff;
     font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Source Code Pro", monospace;
     font-weight: 600;
     transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1),
             box-shadow 0.6s cubic-bezier(0.25, 0.8, 0.25, 1),
@@ -188,7 +190,7 @@ a {
     text-align: center;
     color: #ff00c3;
     font-size: medium;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Source Code Pro", monospace;
     font-weight: 600;
     transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1),
             box-shadow 0.6s cubic-bezier(0.25, 0.8, 0.25, 1),
@@ -221,7 +223,7 @@ a {
 #us {
     color: white;
     margin-top: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Source Code Pro", monospace;
     font-weight: 600;
     font-size: xx-large;
     justify-content: center;
@@ -231,7 +233,7 @@ a {
 #slogan {
     color: white;
     margin-top: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Source Code Pro", monospace;
     font-weight: 400;
     justify-content: center;
     text-align: center;
