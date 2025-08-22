@@ -15,8 +15,8 @@ html {
     height: 45px;
     top: 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     transition: box-shadow 0.3s ease;
     z-index: 1000;
     background: transparent; 
@@ -36,11 +36,78 @@ html {
 
 .navbar li {
     float: right;
-    font-family: 'Sou';
+    font-family: "Source Code Pro", monospace;
     font-weight: 600;
+    font-size: 16px;
     padding: 10px;
     margin-left: 20px;
     margin-right: 10px;
+    
+}
+
+.nav-icon {
+    display: none; /* ẩn icon mặc định */
+    color: white;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 1243px) {
+    .navbar li {
+        display: none;
+    }
+    .nav-icon {
+        position: absolute;
+        display: block;
+        left: 20px;
+    }
+}
+
+.overlay {
+    position: fixed;
+    top: 55px;
+    left: 10px ;
+    height: 0; /* ban đầu ẩn */
+    width: 100px;
+    background: rgba(31, 41, 55, 0.95);
+    overflow: hidden;
+    transition: height 0.5s ease;
+    z-index: 1000;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.overlay-content {
+    display: flex;
+    flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 600;
+    justify-content: right;
+    align-items: right;
+    text-align: left;
+}
+
+.overlay-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: color 0.3s;
+    padding: 3px 4px 3px 4px;
+}
+
+.overlay-content a:hover {
+    color: #00ff88;
+}
+
+/* Class khi mở */
+.overlay.show {
+    height: 150px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 5px #00ff88;
+    
+    
 }
 
 a {
@@ -55,6 +122,7 @@ a {
     color: #00ff88;
     margin-right: 700px;
     font-weight: bold;
+    font-family: "Source Code Pro", monospace;
 }
 
 .welcome {
