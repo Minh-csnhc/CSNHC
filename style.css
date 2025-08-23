@@ -8,13 +8,10 @@ body {
 html {
     scroll-behavior: smooth;
 }
-footer {
-    align-items: center;
-    height: 180px;
-    justify-content: space-between;
+
+.container {
     display: flex;
-    justify-content: center; /* canh ngang giữa */
-    gap: 10px; /* khoảng cách giữa các div */
+    justify-content: space-between;
 }
 
 .order {
