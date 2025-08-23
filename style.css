@@ -8,6 +8,13 @@ body {
 html {
     scroll-behavior: smooth;
 }
+footer {
+    padding-top: calc(var(--spacing) * 10);
+    background-image: url(/images/shapes/footer_bg.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 300%;
+}
 
 .navbar {
     position: sticky;
