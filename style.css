@@ -9,11 +9,9 @@ html {
     scroll-behavior: smooth;
 }
 footer {
-    padding-top: calc(var(--spacing) * 10);
-    background-image: url(/images/shapes/footer_bg.webp);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: 100% 300%;
+    align-items: center;
+    height: 180px;
+    justify-content: space-between;
 }
 
 .navbar {
@@ -314,3 +312,4 @@ a {
     justify-content: center;
     text-align: center;
 }
+
