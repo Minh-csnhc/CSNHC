@@ -1,24 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
 body {
-    color: #fff;
-    background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
-    line-height: 1.6;
+    background: linear-gradient(135deg, #152337, #101d37);
 }
 
 html {
     scroll-behavior: smooth;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.order {
-    width: 60px;
-    height: 60px;
-    text-align: center;
-    line-height: 60px;
+    font-family: "Source Code Pro", monospace;
 }
 
 .navbar {
@@ -301,6 +289,17 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
+.effect {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.effect.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 #us {
     color: white;
     margin-top: 20px;
@@ -319,4 +318,43 @@ a {
     justify-content: center;
     text-align: center;
 }
+
+#wes {
+    color:#ff1a8d;
+    padding-left: 20px;
+    font-size: 23px;
+}
+
+#wes-info {
+    color: white;
+    padding-left: 20px;
+}
+
+#value {
+    color:#ff1a8d;
+    padding-left: 20px;
+    font-size: 23px;
+}
+
+#tick1 {
+    color: #00ff88;
+}
+
+#tick2 {
+    color: #ff1a8d;
+}
+
+#tick3 {
+    color: #1affff;
+}
+
+#tick4 {
+    color: #fc8200;
+}
+
+#value-info {
+    color: white;
+    padding-left: 20px;
+}
+
 
